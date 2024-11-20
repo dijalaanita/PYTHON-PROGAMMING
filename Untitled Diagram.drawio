@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" version="24.8.6">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="679" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1529" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,7 +83,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lJmSRfU9jsoVM-i2f_cR-38" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="140" y="520" width="300" height="230" as="geometry" />
+          <mxGeometry x="-140" y="370" width="300" height="230" as="geometry" />
         </mxCell>
         <mxCell id="lJmSRfU9jsoVM-i2f_cR-25" value="ClothingItems" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="lJmSRfU9jsoVM-i2f_cR-38">
           <mxGeometry x="100" width="100" height="40" as="geometry" />
@@ -136,21 +136,6 @@
             <mxPoint x="310" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lJmSRfU9jsoVM-i2f_cR-44" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="170" y="530" width="100" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="lJmSRfU9jsoVM-i2f_cR-39" value="OutfitItems" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="lJmSRfU9jsoVM-i2f_cR-44">
-          <mxGeometry width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lJmSRfU9jsoVM-i2f_cR-40" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="lJmSRfU9jsoVM-i2f_cR-44" source="lJmSRfU9jsoVM-i2f_cR-39" target="lJmSRfU9jsoVM-i2f_cR-41">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="70" y="370" as="sourcePoint" />
-            <mxPoint x="50" y="120" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lJmSRfU9jsoVM-i2f_cR-41" value="outfit_item_id" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="lJmSRfU9jsoVM-i2f_cR-44">
-          <mxGeometry y="120" width="100" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="lJmSRfU9jsoVM-i2f_cR-45" value="Uses" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="365" y="110" width="120" height="60" as="geometry" />
         </mxCell>
@@ -171,6 +156,21 @@
         </mxCell>
         <mxCell id="lJmSRfU9jsoVM-i2f_cR-49" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="lJmSRfU9jsoVM-i2f_cR-48">
           <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lJmSRfU9jsoVM-i2f_cR-50" value="OutfitsItems" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lJmSRfU9jsoVM-i2f_cR-39" value="OutfitItems" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="440" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lJmSRfU9jsoVM-i2f_cR-40" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lJmSRfU9jsoVM-i2f_cR-50" target="lJmSRfU9jsoVM-i2f_cR-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-140" y="490" as="sourcePoint" />
+            <mxPoint x="-160" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lJmSRfU9jsoVM-i2f_cR-41" value="outfit_item_id" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="60" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
